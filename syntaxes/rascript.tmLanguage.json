@@ -7,23 +7,68 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.rascript",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "keyword.control.conditional.ras",
+				"match": "\\b(if|else)\\b"
+			},
+			{
+				"name": "keyword.control.memory.ras",
+				"match": "\\b(byte|word|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|prev)\\b"
+			},
+			{
+				"name": "keyword.control.loops.ras",
+				"match": "\\b(for|in)\\b"
+			},
+			{
+				"name": "keyword.control.functions.ras",
+				"match": "\\b(function)\\b"
+			},
+			{
+				"name": "keyword.control.achievement.ras",
+				"match": "\\b(achievement)\\b"
+			},
+			{
+				"name": "keyword.control.helpers.ras",
+				"match": "\\b(repeated|once|never|unless)\\b"
+			},
+			{
+				"name": "keyword.control.richpresence.ras",
+				"match": "\\b(rich_presence_display|rich_presence_value|rich_presence_lookup)\\b"
+			},
+			{
+				"name": "keyword.control.leaderboards.ras",
+				"match": "\\b(leaderboard)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.rascript",
+			"name": "string.quoted.double.ras",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.rascript",
+					"name": "constant.character.escape.ras",
 					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash",
+					"begin": "//",
+					"end": "\n",
+					"patterns": [
+						{
+							"include": "#comments"
+						}
+					]
 				}
 			]
 		}
