@@ -15,45 +15,45 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.conditional.ras",
+				"name": "keyword.control.conditional.rascript",
 				"match": "\\b(if|else)\\b"
 			},
 			{
-				"name": "keyword.control.memory.ras",
+				"name": "keyword.control.memory.rascript",
 				"match": "\\b(byte|word|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|prev)\\b"
 			},
 			{
-				"name": "keyword.control.loops.ras",
+				"name": "keyword.control.loops.rascript",
 				"match": "\\b(for|in)\\b"
 			},
 			{
-				"name": "keyword.control.functions.ras",
+				"name": "keyword.control.functions.rascript",
 				"match": "\\b(function)\\b"
 			},
 			{
-				"name": "keyword.control.achievement.ras",
+				"name": "keyword.control.achievement.rascript",
 				"match": "\\b(achievement)\\b"
 			},
 			{
-				"name": "keyword.control.helpers.ras",
+				"name": "keyword.control.helpers.rascript",
 				"match": "\\b(repeated|once|never|unless)\\b"
 			},
 			{
-				"name": "keyword.control.richpresence.ras",
+				"name": "keyword.control.richpresence.rascript",
 				"match": "\\b(rich_presence_display|rich_presence_value|rich_presence_lookup)\\b"
 			},
 			{
-				"name": "keyword.control.leaderboards.ras",
+				"name": "keyword.control.leaderboards.rascript",
 				"match": "\\b(leaderboard)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.ras",
+			"name": "string.quoted.double.rascript",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.ras",
+					"name": "constant.character.escape.rascript",
 					"match": "\\\\."
 				}
 			]
@@ -73,5 +73,5 @@
 			]
 		}
 	},
-	"scopeName": "source.ras"
+	"scopeName": "source.rascript"
 }

@@ -14,12 +14,12 @@
         "languages": [{
             "id": "rascript",
             "aliases": ["RAScript", "rascript"],
-            "extensions": [".ras"],
+            "extensions": [".rascript"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
             "language": "rascript",
-            "scopeName": "source.ras",
+            "scopeName": "source.rascript",
             "path": "./syntaxes/rascript.tmLanguage.json"
         }]
     }
