@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - Code snippets
+  - Loops
+  - Function blocks
+  - Conditional blocks
+  - Key-value pair definitions
 
 ## [0.1.0] - 2018-01-21
 ### Added

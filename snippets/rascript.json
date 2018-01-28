@@ -28,5 +28,10 @@
             "}"
         ],
         "description": "Function Block"
+    },
+    "Key_Value_Pair": {
+        "prefix": "key",
+        "body": "${1:key}: ${2:\"${3:value}\"}",
+        "description": "Key-Value Pair"
     }
 }
