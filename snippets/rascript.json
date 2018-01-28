@@ -33,5 +33,18 @@
         "prefix": "key",
         "body": "${1:key}: ${2:\"${3:value}\"}",
         "description": "Key-Value Pair"
+    },
+    "Achievement_Definition": {
+        "prefix": "achievement",
+        "body": [
+            "achievement",
+            "(",
+            "\ttitle = ${1:\"${2:title}\"},",
+            "\tdescription = ${3:\"${4:description}\"},",
+            "\tpoints = ${5:points},",
+            "\ttrigger = $0",
+            ")"
+        ],
+        "description": "Achievement Definition"
     }
 }
