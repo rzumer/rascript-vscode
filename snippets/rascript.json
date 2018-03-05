@@ -2,7 +2,7 @@
     "For_In_Loop": {
         "prefix": "for",
         "body": [
-            "for ${1:key} in ${2:dictionary}",
+            "for ${1:element} in ${2:iterable}",
             "{",
             "\t$0",
             "}"
@@ -29,10 +29,10 @@
         ],
         "description": "Function Block"
     },
-    "Key_Value_Pair": {
-        "prefix": "key",
-        "body": "${1:key}: ${2:\"${3:value}\"}",
-        "description": "Key-Value Pair"
+    "Range_Definition": {
+        "prefix": "range",
+        "body": "range(${1:start}, ${2:stop}${3:, [step]})",
+        "description": "Range Definition"
     },
     "Achievement_Definition": {
         "prefix": "achievement",
@@ -42,9 +42,24 @@
             "\ttitle = ${1:\"${2:title}\"},",
             "\tdescription = ${3:\"${4:description}\"},",
             "\tpoints = ${5:points},",
-            "\ttrigger = $0",
+            "\ttrigger = ${0:trigger}",
             ")"
         ],
         "description": "Achievement Definition"
+    },
+    "Leaderboard_Definition": {
+        "prefix": "leaderboard",
+        "body": [
+            "leaderboard",
+            "(",
+            "\ttitle = ${1:\"${2:title}\"},",
+            "\tdescription = ${3:\"${4:description}\"},",
+            "\tstart = ${5:condition},",
+            "\tcancel = ${6:condition},",
+            "\tsubmit = ${7:condition},",
+            "\tvalue = ${0:value}",
+            ")"
+        ],
+        "description": "Leaderboard Definition"
     }
 }

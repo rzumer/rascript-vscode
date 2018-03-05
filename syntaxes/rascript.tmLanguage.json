@@ -27,6 +27,10 @@
 				"match": "\\b(for|in)\\b"
 			},
 			{
+				"name": "keyword.control.range.rascript",
+				"match": "\\b(range)\\b"
+			},
+			{
 				"name": "keyword.control.functions.rascript",
 				"match": "\\b(function)\\b"
 			},
@@ -40,7 +44,7 @@
 			},
 			{
 				"name": "keyword.control.richpresence.rascript",
-				"match": "\\b(rich_presence_display|rich_presence_value|rich_presence_lookup)\\b"
+				"match": "\\b(rich_presence_display|rich_presence_conditional_display|rich_presence_value|rich_presence_lookup)\\b"
 			},
 			{
 				"name": "keyword.control.leaderboards.rascript",

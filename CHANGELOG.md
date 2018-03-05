@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 N/A
 
+## [0.2.2] - 2018-03-05
+### Added
+- Syntax highlighting for `range` and `rich_presence_conditional_display` keywords
+- Code snippets for `range` and `leaderboard` definitions
+### Changed
+- `For ... In Loop` code snippet now encompasses array and range iteration
+### Removed
+- `Key-Value Pair` code snippet
+
 ## [0.2.0] - 2018-01-28
 ### Added
 - Code snippets
