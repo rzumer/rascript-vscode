@@ -40,7 +40,7 @@
 			},
 			{
 				"name": "keyword.control.helpers.rascript",
-				"match": "\\b(repeated|once|never|unless)\\b"
+				"match": "\\b(repeated|once|never|unless|always_true|always_false)\\b"
 			},
 			{
 				"name": "keyword.control.richpresence.rascript",
