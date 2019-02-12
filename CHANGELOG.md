@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 N/A
 
+## [0.2.3] - 2019-02-12
+### Added
+- Syntax highlighting for `always_true` and `always_false` keywords
+### Changed
+- Updated the icon to match the RetroAchievements website
+
 ## [0.2.2] - 2018-03-05
 ### Added
 - Syntax highlighting for `range` and `rich_presence_conditional_display` keywords
