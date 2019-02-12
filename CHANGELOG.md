@@ -10,6 +10,7 @@ N/A
 ## [0.2.3] - 2019-02-12
 ### Added
 - Syntax highlighting for `always_true` and `always_false` keywords
+
 ### Changed
 - Updated the icon to match the RetroAchievements website
 
@@ -17,8 +18,10 @@ N/A
 ### Added
 - Syntax highlighting for `range` and `rich_presence_conditional_display` keywords
 - Code snippets for `range` and `leaderboard` definitions
+
 ### Changed
 - `For ... In Loop` code snippet now encompasses array and range iteration
+
 ### Removed
 - `Key-Value Pair` code snippet
 
