@@ -35,6 +35,10 @@
                 "match": "\\b(function)\\b"
             },
             {
+                "name": "keyword.control.return.rascript",
+                "match": "\\b(return)\\b"
+            },
+            {
                 "name": "keyword.control.achievement.rascript",
                 "match": "\\b(achievement)\\b"
             },
