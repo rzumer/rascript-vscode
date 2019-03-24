@@ -13,7 +13,7 @@
         "vscode": "^1.6.0"
     },
     "categories": [
-        "Languages",
+        "Programming Languages",
         "Snippets"
     ],
     "contributes": {
