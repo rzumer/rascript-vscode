@@ -61,5 +61,36 @@
             ")"
         ],
         "description": "Leaderboard Definition"
+    },
+    "Rich_Presence_Display_Definition": {
+        "prefix": "rich_presence_display",
+        "body": [
+            "rich_presence_display",
+            "(",
+            "\t${1:format_string}${2:,\n\t[parameters]}",
+            ")"
+        ],
+        "description": "Rich Presence Display Definition"
+    },
+    "Rich_Presence_Value_Definition": {
+        "prefix": "rich_presence_value",
+        "body": "rich_presence_value(${1:name}, ${2:expression}, ${3:format})",
+        "description": "Rich Presence Value Definition"
+    },
+    "Rich_Presence_Lookup_Definition": {
+        "prefix": "rich_presence_lookup",
+        "body": "rich_presence_lookup(${1:name}, ${2:expression}, ${3:dictionary})",
+        "description": "Rich Presence Lookup Definition"
+    },
+    "Rich_Presence_Conditional_Display_Definition": {
+        "prefix": "rich_presence_conditional_display",
+        "body": [
+            "rich_presence_conditional_display",
+            "(",
+            "\t${1:condition},",
+            "\t${2:format_string}${3:,\n\t[parameters]}",
+            ")"
+        ],
+        "description": "Rich Presence Conditional Display Definition"
     }
 }
