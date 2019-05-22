@@ -20,7 +20,7 @@
             },
             {
                 "name": "keyword.control.memory.rascript",
-                "match": "\\b(byte|word|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev)\\b"
+                "match": "\\b(byte|word|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev|prior)\\b"
             },
             {
                 "name": "keyword.control.loops.rascript",
