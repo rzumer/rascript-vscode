@@ -6,6 +6,12 @@
             "include": "#keywords"
         },
         {
+            "include": "#storage"
+        },
+        {
+            "include": "#support"
+        },
+        {
             "include": "#strings"
         },
         {
@@ -19,39 +25,43 @@
                 "match": "\\b(if|else)\\b"
             },
             {
-                "name": "keyword.control.memory.rascript",
-                "match": "\\b(byte|word|tbyte|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev|prior)\\b"
-            },
-            {
                 "name": "keyword.control.loops.rascript",
                 "match": "\\b(for|in)\\b"
             },
             {
-                "name": "keyword.control.range.rascript",
+                "name": "keyword.control.return.rascript",
+                "match": "\\b(return)\\b"
+            }]
+        },
+        "storage": {
+            "patterns": [{
+                "name": "storage.type.functions.rascript",
+                "match": "\\b(function)\\b"
+            }]
+        },
+        "support": {
+            "patterns": [{
+                "name": "support.function.memory.rascript",
+                "match": "\\b(byte|word|tbyte|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev|prior)\\b"
+            },
+            {
+                "name": "support.function.range.rascript",
                 "match": "\\b(range)\\b"
             },
             {
-                "name": "keyword.control.functions.rascript",
-                "match": "\\b(function)\\b"
-            },
-            {
-                "name": "keyword.control.return.rascript",
-                "match": "\\b(return)\\b"
-            },
-            {
-                "name": "keyword.control.achievement.rascript",
+                "name": "support.function.achievement.rascript",
                 "match": "\\b(achievement)\\b"
             },
             {
-                "name": "keyword.control.helpers.rascript",
+                "name": "support.function.helpers.rascript",
                 "match": "\\b(repeated|once|measured|never|unless|always_true|always_false)\\b"
             },
             {
-                "name": "keyword.control.richpresence.rascript",
+                "name": "support.function.richpresence.rascript",
                 "match": "\\b(rich_presence_display|rich_presence_conditional_display|rich_presence_value|rich_presence_lookup)\\b"
             },
             {
-                "name": "keyword.control.leaderboards.rascript",
+                "name": "support.function.leaderboards.rascript",
                 "match": "\\b(leaderboard)\\b"
             }]
         },
