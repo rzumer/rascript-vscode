@@ -20,7 +20,7 @@
             },
             {
                 "name": "keyword.control.memory.rascript",
-                "match": "\\b(byte|word|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev|prior)\\b"
+                "match": "\\b(byte|word|tbyte|dword|bit0|bit1|bit2|bit3|bit4|bit5|bit6|bit7|low4|high4|bit|prev|prior)\\b"
             },
             {
                 "name": "keyword.control.loops.rascript",
@@ -44,7 +44,7 @@
             },
             {
                 "name": "keyword.control.helpers.rascript",
-                "match": "\\b(repeated|once|never|unless|always_true|always_false)\\b"
+                "match": "\\b(repeated|once|measured|never|unless|always_true|always_false)\\b"
             },
             {
                 "name": "keyword.control.richpresence.rascript",
