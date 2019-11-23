@@ -63,6 +63,10 @@
             {
                 "name": "support.function.leaderboards.rascript",
                 "match": "\\b(leaderboard)\\b"
+            },
+            {
+                "name": "support.constant.formats.rascript",
+                "match": "\\b(VALUE|SECS|FRAMES|POINTS|MILLISECS|MINUTES|SECS_AS_MINS)\\b"
             }]
         },
         "strings": {
