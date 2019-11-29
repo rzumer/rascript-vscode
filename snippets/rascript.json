@@ -74,7 +74,7 @@
     },
     "Rich_Presence_Value_Definition": {
         "prefix": "rich_presence_value",
-        "body": "rich_presence_value(${1:name}, ${2:expression}, ${3:format})",
+        "body": "rich_presence_value(${1:name}, ${2:expression})",
         "description": "Rich Presence Value Definition"
     },
     "Rich_Presence_Lookup_Definition": {
