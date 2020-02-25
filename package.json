@@ -3,7 +3,7 @@
     "displayName": "RAScript for Visual Studio Code",
     "description": "RAScript language support for Visual Studio Code",
     "icon": "icon.png",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "publisher": "rzumer",
     "repository": {
         "type": "git",
