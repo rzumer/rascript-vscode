@@ -31,7 +31,7 @@
     },
     "Range_Definition": {
         "prefix": "range",
-        "body": "range(${1:start}, ${2:stop}${3:, [step]})",
+        "body": "range(${1:start}, ${2:stop}${3:, ${4:[step]}})",
         "description": "Range Definition"
     },
     "Achievement_Definition": {
@@ -67,14 +67,14 @@
         "body": [
             "rich_presence_display",
             "(",
-            "\t${1:format_string}${2:,\n\t[parameters]}",
+            "\t${1:format_string}${2:,\n\t${3:[parameters]}}",
             ")"
         ],
         "description": "Rich Presence Display Definition"
     },
     "Rich_Presence_Value_Definition": {
         "prefix": "rich_presence_value",
-        "body": "rich_presence_value(${1:name}, ${2:expression}${3:, [format]})",
+        "body": "rich_presence_value(${1:name}, ${2:expression}${3:, ${4:[format]}})",
         "description": "Rich Presence Value Definition"
     },
     "Rich_Presence_Lookup_Definition": {
@@ -88,7 +88,7 @@
             "rich_presence_conditional_display",
             "(",
             "\t${1:condition},",
-            "\t${2:format_string}${3:,\n\t[parameters]}",
+            "\t${2:format_string}${3:,\n\t${4:[parameters]}}",
             ")"
         ],
         "description": "Rich Presence Conditional Display Definition"
