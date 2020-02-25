@@ -57,7 +57,7 @@
             "\tstart = ${5:condition},",
             "\tcancel = ${6:condition},",
             "\tsubmit = ${7:condition},",
-            "\tvalue = ${0:value}",
+            "\tvalue = ${8:value}${9:,\n\tformat = ${10:[format]}}",
             ")"
         ],
         "description": "Leaderboard Definition"
@@ -74,7 +74,7 @@
     },
     "Rich_Presence_Value_Definition": {
         "prefix": "rich_presence_value",
-        "body": "rich_presence_value(${1:name}, ${2:expression})",
+        "body": "rich_presence_value(${1:name}, ${2:expression}${3:, [format]})",
         "description": "Rich Presence Value Definition"
     },
     "Rich_Presence_Lookup_Definition": {
